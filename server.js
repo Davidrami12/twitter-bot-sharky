@@ -56,7 +56,7 @@ const tweetRandomImage = () => {
           T.post('media/metadata/create', {
             media_id: image.media_id_string,
             alt_text: {
-              text: 'Describe the image'
+              text: 'Auto-generated image using Node.js and Twitter API! :)'
             }
           }, (err, data, response) => {
 
