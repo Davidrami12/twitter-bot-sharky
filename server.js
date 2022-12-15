@@ -19,7 +19,7 @@ stream.on('tweet', function (tweet) {
   })
 })*/
 
-
+console.log("prueba 123")
 
 const randomFromArray = (arr) => {
   /* Helper function for picking a random item from an array. */
