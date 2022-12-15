@@ -5,6 +5,20 @@ const fs = require('fs'),
 
 const T = new Twit(config);
 
+/*const stream = T.stream('statuses/filter', { track: "#shark"})
+
+stream.on('tweet', function (tweet) {
+  console.log(tweet.text)
+
+  T.post('favorites/create', { id: tweet.id_str }, function (tweet) {
+    if(err){
+      console.log(err)
+    }else{
+      console.log(`Liked tweet: ${tweet.id_str}`)
+    }
+  })
+})*/
+
 
 
 const randomFromArray = (arr) => {
