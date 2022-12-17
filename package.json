@@ -9,8 +9,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "twit": "^2.2.11"
+    "cron": "^2.1.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "request": "^2.88.2",
+    "twit": "^2.2.11",
+    "twitter-api-v2": "^1.12.10"
   },
-  "devDependencies": {},
   "description": ""
 }
